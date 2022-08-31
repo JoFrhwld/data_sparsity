@@ -539,7 +539,7 @@ movies %>%
     scale_color_brewer(palette = "Dark2")
 ```
 
-Other things that have been shown to exhibit power law distributions [@newman2005, @jiang2011] are
+Other things that have been shown to exhibit power law distributions [@newman2005; @jiang2011] are
 
 -   US city populations
 -   number of citations academic papers get
