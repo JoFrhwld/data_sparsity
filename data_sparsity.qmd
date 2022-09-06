@@ -2,11 +2,8 @@
 title: "Data Sparsity"
 format: 
   html:
-    theme: 
-      - materia
-      - custom.scss
     toc: true
-    toc-location: left
+    toc-location: right
 knitr: 
   opts_chunk: 
     fig-width: 8
@@ -196,7 +193,7 @@ ch1_total <- sum(frank_ch1$n)
 Just to draw the parallels between the two analogies:
 
 | variable | in the analogy                                                | in Frankenstein Chapter 1                                                     |
-|----------|---------------------------------------------------------------|-------------------------------------------------------------------------------|
+|------------------|------------------------|------------------------------|
 | $N$      | The total number of bugs caught in the net. ($N=10$)          | The total number of words in the first chapter. ($N=1,780$).                  |
 | $x_i$    | An individual bug. e.g. [{{< fa bug >}}]{.bug1}$_1$           | An individual word token. In chapter 1, $x_1$ = "i"                           |
 | $w_j$    | A bug species. [{{< fa bug >}}]{.bug1}                        | A word type. The indices are frequency ordered, so for chapter 1 $w_1$ = "of" |
